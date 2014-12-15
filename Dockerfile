@@ -3,7 +3,7 @@ MAINTAINER rvalyi "rvalyi@akretion.com"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
-    apt-get install -y git python3-uno python3-pip openjdk-7-jre supervisor && \
+    apt-get install -y git python3-uno libreoffice-writer libreoffice-calc python3-pip openjdk-7-jre && \
     apt-get clean
 
 RUN pip3 install jsonrpc2
