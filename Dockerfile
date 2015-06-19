@@ -1,4 +1,4 @@
-FROM ubuntu-debootstrap:14.04
+FROM ubuntu:14.04
 MAINTAINER rvalyi "rvalyi@akretion.com"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
